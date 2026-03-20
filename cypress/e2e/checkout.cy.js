@@ -7,5 +7,6 @@ describe('Checkout Test', () => {
     cy.get('[data-test="firstName"]').type('John')
     cy.get('[data-test="lastName"]').type('Doe')
     cy.get('[data-test="postalCode"]').type('12345')
+   // cy.get('[data-test="pin"]').type('12345')
   })
 })

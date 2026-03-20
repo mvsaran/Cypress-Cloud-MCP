@@ -1,3 +1,6 @@
+# Note: If running locally, ensure Docker is installed and available in your PATH.
+#       On GitHub Actions, Docker is set up by the workflow.
+
 name: Cypress Parallel Docker Tests
 
 on: [push]
@@ -13,6 +16,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
 
       - name: Build Docker Image
         run: docker build -t cypress-parallel .
