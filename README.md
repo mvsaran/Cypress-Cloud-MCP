@@ -214,8 +214,13 @@ graph TD
 
 -## VIDEOS
 
+
 ### Demo Video
-A demo video is included in the `cypress/videos/` directory. This video demonstrates the Cypress Cloud MCP workflow and test execution. Review it for a step-by-step visual guide to running and analyzing tests with Cypress Cloud MCP.
+A demo video is available online:
+
+[Cypress Cloud MCP Demo Video (Loom)](https://www.loom.com/share/795df1f962004f76949429bc8a4e1f87?utm_medium=gif)
+
+This video demonstrates the Cypress Cloud MCP workflow and test execution. Review it for a step-by-step visual guide to running and analyzing tests with Cypress Cloud MCP.
 
 ---
 
